@@ -928,6 +928,11 @@ CARD在线分析平台：https://card.mcmaster.ca/
       -o result/card/contigs
     head result/card/contigs.txt
 
+
+abricate --db ncbi --minid 50 /share/home/xiaozufei/metaST/temp/contigs.fa > ncbi1.txt
+
+
+
 ## 3.4 Kraken2基因物种注释
 
     # Generate report in default taxid output
